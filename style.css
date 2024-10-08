@@ -1,0 +1,25 @@
+.draggable {
+    position: absolute;
+    cursor: move;
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 16px;
+}
+
+.draggable:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+#spawnButton, #saveButton {
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 16px;
+}
+
+#spawnButton:hover, #saveButton:hover {
+    color: blue;
+    cursor: pointer;
+}
